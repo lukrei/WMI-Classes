@@ -1,0 +1,42 @@
+ Get-WmiObject -Class WmiMonitorID -Namespace root\wmi
+ __GENUS                : 2
+__CLASS                : WmiMonitorID
+__SUPERCLASS           : MSMonitorClass
+__DYNASTY              : MSMonitorClass
+__RELPATH              : WmiMonitorID.InstanceName="DISPLAY\\SAM0D2C\\4&29c712e5&0&UID214595_0"
+__PROPERTY_COUNT       : 9
+__DERIVATION           : {MSMonitorClass}
+__SERVER               : NT4-ADV
+__NAMESPACE            : root\wmi
+__PATH                 : \\NT4-ADV\root\wmi:WmiMonitorID.InstanceName="DISPLAY\\SAM0D2C\\4&29c712e5&0&UID214595_0"
+Active                 : True
+InstanceName           : DISPLAY\SAM0D2C\4&29c712e5&0&UID214595_0
+ManufacturerName       : {83, 65, 77, 0...}
+ProductCodeID          : {48, 68, 50, 67...}
+SerialNumberID         : {72, 52, 90, 77...}
+UserFriendlyName       : {67, 50, 52, 70...}
+UserFriendlyNameLength : 13
+WeekOfManufacture      : 22
+YearOfManufacture      : 2019
+PSComputerName         : NT4-ADV
+
+__GENUS                : 2
+__CLASS                : WmiMonitorID
+__SUPERCLASS           : MSMonitorClass
+__DYNASTY              : MSMonitorClass
+__RELPATH              : WmiMonitorID.InstanceName="DISPLAY\\BNQ7F58\\5&a86ea05&1&UID4357_0"
+__PROPERTY_COUNT       : 9
+__DERIVATION           : {MSMonitorClass}
+__SERVER               : NT4-ADV
+__NAMESPACE            : root\wmi
+__PATH                 : \\NT4-ADV\root\wmi:WmiMonitorID.InstanceName="DISPLAY\\BNQ7F58\\5&a86ea05&1&UID4357_0"
+Active                 : True
+InstanceName           : DISPLAY\BNQ7F58\5&a86ea05&1&UID4357_0
+ManufacturerName       : {66, 78, 81, 0...}
+ProductCodeID          : {55, 70, 53, 56...}
+SerialNumberID         : {67, 52, 75, 48...}
+UserFriendlyName       : {90, 79, 87, 73...}
+UserFriendlyNameLength : 13
+WeekOfManufacture      : 16
+YearOfManufacture      : 2019
+PSComputerName         : NT4-ADV
