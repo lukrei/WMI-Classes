@@ -7,4 +7,4 @@ class WmiMonitorID
 instance of WmiMonitorID
 {
     SerialNumberID = "HD4500XD1237";
-};1
+};
