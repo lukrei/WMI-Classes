@@ -5,3 +5,5 @@ Then run mofcomp -N:root\wmi "PathToYourMof" to replace or create new WMI Class.
 
 This is just a minimal version of the WMI Class. If you want to replace the existing one with real values you would need to adjust this fields below to the WMI Class standard in the link above:
 PS C:\WINDOWS\system32> Get-CimClass -ClassName WmiMonitorID -Namespace root\wmi | Select -ExpandProperty CimClassProperties
+
+Be aware if you take the minimal mof file from this repository you loose basically all monitor infos and you may have to reinstall windows or repair wmi.
