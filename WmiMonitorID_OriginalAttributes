@@ -1,0 +1,65 @@
+PS C:\WINDOWS\system32> Get-CimClass -ClassName WmiMonitorID -Namespace root\wmi | Select -ExpandProperty CimClassProperties
+
+
+Name               : Active
+Value              :
+CimType            : Boolean
+Flags              : Property, ReadOnly, NullValue
+Qualifiers         : {read}
+ReferenceClassName :
+
+Name               : InstanceName
+Value              :
+CimType            : String
+Flags              : Property, Key, ReadOnly, NullValue
+Qualifiers         : {key, read}
+ReferenceClassName :
+
+Name               : ManufacturerName
+Value              :
+CimType            : UInt16Array
+Flags              : Property, ReadOnly, NullValue
+Qualifiers         : {MAX, read, WmiDataId}
+ReferenceClassName :
+
+Name               : ProductCodeID
+Value              :
+CimType            : UInt16Array
+Flags              : Property, ReadOnly, NullValue
+Qualifiers         : {MAX, read, WmiDataId}
+ReferenceClassName :
+
+Name               : SerialNumberID
+Value              :
+CimType            : UInt16Array
+Flags              : Property, ReadOnly, NullValue
+Qualifiers         : {MAX, read, WmiDataId}
+ReferenceClassName :
+
+Name               : UserFriendlyName
+Value              :
+CimType            : UInt16Array
+Flags              : Property, ReadOnly, NullValue
+Qualifiers         : {read, WmiDataId, WmiSizeIs}
+ReferenceClassName :
+
+Name               : UserFriendlyNameLength
+Value              :
+CimType            : UInt16
+Flags              : Property, ReadOnly, NullValue
+Qualifiers         : {read, WmiDataId}
+ReferenceClassName :
+
+Name               : WeekOfManufacture
+Value              :
+CimType            : UInt8
+Flags              : Property, ReadOnly, NullValue
+Qualifiers         : {read, WmiDataId}
+ReferenceClassName :
+
+Name               : YearOfManufacture
+Value              :
+CimType            : UInt16
+Flags              : Property, ReadOnly, NullValue
+Qualifiers         : {read, WmiDataId}
+ReferenceClassName :
