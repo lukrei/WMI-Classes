@@ -1,0 +1,10 @@
+class WmiMonitorID
+{
+    [key] string   SerialNumberID;
+
+};
+
+instance of WmiMonitorID
+{
+    SerialNumberID = "HD4500XD1237";
+};1

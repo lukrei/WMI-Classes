@@ -1,0 +1,1 @@
+mofcomp -N:root\wmi "C:\mofs\WmiMonitorID.mof"
