@@ -7,3 +7,4 @@ This is just a minimal version of the WMI Class. If you want to replace the exis
 PS C:\WINDOWS\system32> Get-CimClass -ClassName WmiMonitorID -Namespace root\wmi | Select -ExpandProperty CimClassProperties
 
 Be aware if you take the minimal mof file from this repository you loose basically all monitor infos and you may have to reinstall windows or repair wmi.
+It is highly recommended to create a System Restore Point in Windows.
